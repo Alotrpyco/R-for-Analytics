@@ -15,7 +15,7 @@ Capacitar os participantes a utilizar R como ferramenta para análise de dados, 
 
 ## :clock3: Carga Horária
 
-**40 horas**, divididas em **10 encontros** remotos que ocorrerão aos sábados, das **8h às 12h** e das **14h às 18h**), com abordagem prática e voltada a problemas reais.
+**40 horas**, divididas em **10 encontros** remotos que ocorrerão aos sábados, das **8h às 12h** e das **14h às 18h**, com abordagem prática e voltada a problemas reais.
 
 ---
 
