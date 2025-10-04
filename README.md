@@ -1,6 +1,6 @@
 
 
-## :mortar_board: Curso: Python para Iniciantes com Aplicações em Economia, Contabilidade e Administração
+## :mortar_board: Curso: R para Iniciantes com Aplicações em Economia, Contabilidade e Administração
 
 Este repositório reúne os materiais, códigos, exercícios e projetos desenvolvidos durante o curso de R, ministrado pelo professor Adhemar Ranciaro Neto ([Lattes](http://lattes.cnpq.br/7967232324656426)), com foco em aplicações práticas em Economia, Contabilidade e Administração. 
 
