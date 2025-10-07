@@ -39,10 +39,16 @@ det(matrix_quadrada)
 solve(matrix_quadrada)
 
 #7 Crie um dataframe contendo nome idade sexo e altura para 4 pessoas.
-pessoas <- data.frame(c("Natasha", "Sérgio", "Ricado", "Mércia"),
-                      c(32, 36, 27, 25),
-                      c("Feminino", "Masculino", "Masculino", "Feminio"),
-                      c(1.60, 1.70, 1.75, 1.59))
+pessoas <- data.frame(
+                      nome = c("Natasha", "Sérgio", "Ricado", "Mércia"),
+                      idade = c(32, 36, 27, 25),
+                      sexo = c("Feminino", "Masculino", "Masculino", "Feminio"),
+                      altura = c(1.60, 1.70, 1.75, 1.59))
+print(pessoas)
+########################################################
+#8. transforme a coluna sexo em fator
+pessoas$sexo <- factor(pessoas$sexo, levels = c("masculino", "feminino"))
+print(pessoas)
 
 
 
