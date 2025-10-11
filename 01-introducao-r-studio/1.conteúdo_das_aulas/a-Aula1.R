@@ -89,11 +89,10 @@ help(package = "ggplot2") #Ajuda com pacotes específicos
 TRUE & FALSE
 TRUE | FALSE
 !TRUE
-
+################################################################################
 #9-Comentários no código
 # Isto é um comentário. O R ignora essa linha.
 salario <- 3000  # atribuição de valor
-################################################################################
 
 #Dica: use scripts: Salve seus comandos em arquivos .R ou .Rmd para reutilizá-los.
 #Use a tecla Ctrl + Enter para executar linha por linha.
@@ -101,31 +100,36 @@ salario <- 3000  # atribuição de valor
 
 #10-Pacotes no R: o que são e como usar
 ###O R vem com várias funções prontas, mas você pode aumentar suas capacidades instalando pacotes (ou “bibliotecas”).
-
+#################################################################################
 #11-O que é um pacote?
 #11.1-Um pacote é um conjunto de funções, dados e documentação que adiciona novos recursos ao R.
-#12.2-Exemplos: - ggplot2 → gráficos - dplyr → manipulação de dados - readxl → leitura de arquivos Excel
 
-#12-Instalando um pacote
-#12.1-Você só precisa instalar uma vez (por computador ou usuário):
-  
+################################################################################
+#12-Exemplos: - ggplot2 → gráficos - dplyr → manipulação de dados - readxl → leitura de arquivos Excel
+
+#12.1-Instalando um pacote
+#12.2-Você só precisa instalar uma vez (por computador ou usuário):
+################################################################################
+
 #13-install.packages("nome_do_pacote")
-#13.1Exemplo:
+#13.1-Exemplo:
 install.packages("ggplot2")
-
+################################################################################
 #14-Carregando um pacote
 #14.1-Você precisa carregar o pacote sempre que iniciar um novo script ou sessão:
   
 library(ggplot2)
-
+################################################################################
 #15.1-Atualizando pacotes: Para manter os pacotes atualizados:
 #15.2 - update.packages()
 #Você também pode usar:
+################################################################################
 
 install.packages("ggplot2")  # novamente, para instalar a versão mais recente
 #17-dica importante
 #17.1-Se você tentar usar uma função sem carregar o pacote, o R dará erro:
 #17.2-Error in ggplot(...) : could not find function "ggplot"
+################################################################################
 
 #18-Resumo da Aula
 #18.1-Conhecemos o R e o RStudio

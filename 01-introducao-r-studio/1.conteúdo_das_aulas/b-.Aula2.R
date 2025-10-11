@@ -126,7 +126,6 @@ info <- list(
 
 info
 
-###############################################################################
 #4.3-Acessando elementos da lista
 info$nome          # Pelo nome
 info[["idade"]]    # Pelo nome entre colchetes duplos
@@ -141,19 +140,19 @@ str(info)       # Estrutura da lista
 length(info)    # Número de elementos
 names(info)     # Nomes dos elementos
 
-################################################################################
+
 #5.1-Adicionando elementos
 info$email <- "carlos@email.com"
 info #ou
 
 info[["cidade"]] <- "Maceió"
-################################################################################
+
 
 #5.2-Removendo elementos
 info$cidade <- NULL
 info
 
-################################################################################
+
 #5.3-Modificando elementos
 info$idade <- 36
 info$notas[2] <- 8.3
@@ -172,17 +171,17 @@ aluno <- list(
 #6.1-Acessando dados aninhados
 aluno$dados$curso
 aluno[["dados"]][["idade"]]
-################################################################################
+
 
 #6.2-Aplicando funções com lapply() e sapply()
 #11.1-Criando uma lista de vetores
 numeros <- list(a = 1:5, b = 6:10, c = 11:15)
+################################################################################
 
 #7-Soma de cada vetor
 lapply(numeros, sum)    # Retorna uma lista
 sapply(numeros, sum)    # Retorna um vetor (mais compacto). Se não der, retorna uma lista.
 
-################################################################################
 #7.1-Convertendo lista para data frame (quando possível)
 dados <- list(
   nome = c("Ana", "Bruno", "Carlos"),
@@ -302,6 +301,7 @@ ncol(dados)         # Número de colunas
 names(dados)        # Nomes das colunas
 
 #9.4-Adicionando colunas e linhas
+
 #9.4.1-Adicionando uma coluna
 dados$nota <- c(8.5, 7.2, 9.0, 6.8)
 
@@ -315,6 +315,7 @@ nova_linha <- data.frame(
 )
 
 dados <- rbind(dados, nova_linha)
+
 #9.4.3-Removendo colunas ou linhas
 dados$ativo <- NULL        # Remove a coluna 'ativo'
 dados <- dados[-2, ]       # Remove a 2ª linha
