@@ -192,7 +192,7 @@ dados <- list(
 df <- as.data.frame(dados)
 df
 
-################################################################################
+
 #7.2-Exemplo prático com lista de alunos
 alunos <- list(
   aluno1 = list(nome = "Ana", notas = c(9, 8, 10)),
