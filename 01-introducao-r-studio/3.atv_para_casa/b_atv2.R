@@ -40,7 +40,7 @@ solve(matrix_quadrada)
 
 #7 Crie um dataframe contendo nome idade sexo e altura para 4 pessoas.
 pessoas <- data.frame(
-                      nome = c("Natasha", "Sérgio", "Ricado", "Mércia"),
+                      nome = c("Ana", "Sérgio", "Ricado", "Dora aventureira"),
                       idade = c(32, 36, 27, 25),
                       sexo = c("Feminino", "Masculino", "Masculino", "Feminino"),
                       altura = c(1.60, 1.70, 1.75, 1.59))
