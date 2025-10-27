@@ -132,7 +132,7 @@ write.csv(df_financeiro,
 #c)."sweep()" - Aplicar operação entre matriz e vetor
 #d)."outer()" - Produto externo
 #e)."eigen()" - Autovalores e autovetores
-e################################################################################
+################################################################################
 
 #8.Apresente 5 novos comandos (operações) em listas.
 #a) "rapply()" - Aplicar função recursivamente em listasLista aninhada complexa
