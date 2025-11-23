@@ -1,7 +1,8 @@
 #Visualização de dados com o ggplot2
 
 #definindo diretório
-setwd("E:/ufal/dados/4 - Aula4")
+getwd()
+setwd("C:/Users/sergi/Documents/GitHub/Repositório/R-for-Analytics/4.Visualização de dados com ggplot2/4ª Semana")
 
 #Carregando pacotes
 library(tidyverse)
