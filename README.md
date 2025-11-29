@@ -68,12 +68,10 @@ Capacitar os participantes a utilizar R como ferramenta para análise de dados, 
 │       ├── b-challenge2.R
 │       ├── c-challenge3_Microdados_ed_sup_ies 2023.R
 │       ├── d-challenge4.R
-│       └── e-challenge5.R
+│       └── e - challenge5.R
 ├── 7.Projeto_Final
-│   └── 6ª Semana
-│       ├── 5 - v.2_IPCA – Comparação de Variação Mensal.Rmd
-│       ├── inflacao_ipca_var_mensal_brasil10.csv
-│       └── v.2_IPCA-–-Comparação-de-Variação-Mensal.html
+│   ├── 5 - v.2_IPCA – Comparação de Variação Mensal.Rmd
+│   └── inflacao_ipca_var_mensal_brasil10.csv
 ├── LICENSE
 └── README.md
 ```
