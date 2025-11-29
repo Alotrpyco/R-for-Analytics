@@ -79,7 +79,7 @@ Capacitar os participantes a utilizar R como ferramenta para análise de dados, 
 ```
 ---
 
-# :shipit: Acesse a análise completa da dinâmica do IPCA, clicando no relatório publicado por mim no Rpubs: [Clique aqui](https://rpubs.com/Alotrpyco/dinamica-ipca)
+ Acesse a análise completa da dinâmica do IPCA, clicando no relatório publicado por mim no Rpubs: [Clique aqui](https://rpubs.com/Alotrpyco/dinamica-ipca)
 
 ---
 
